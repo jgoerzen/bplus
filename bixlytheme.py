@@ -189,9 +189,10 @@ class Theme(ThemeBase):
             segments = d['page_name'].split('/') # was: title_text
             for s in segments[:-1]:
                 curpage += s
-                content.append(Page(self.request, curpage).link_to(self.request, s))
+                thisp = Page(self.request, curpage)
+                content.append(thisp.link_to(self.request, thisp.split_title()))
                 curpage += '/'
-            link_text = segments[-1]
+            link_text = d['page'].split_title().split('/')[-1]
             link_title = _('Click to do a full-text search for this title')
             link_query = {
                 'action': 'fullsearch',
