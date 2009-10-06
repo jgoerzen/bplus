@@ -14,9 +14,9 @@ html {
 
 body {
 	margin: 0;
-	width: 900px;
-	margin-righ: 10%;
-	margin-left: 10%;
+	width: 100%;
+	/* margin-right: 10%;
+	margin-left: 0%; */
 }
 h1, h2, h3, h4, h5{
 	color: #000;
