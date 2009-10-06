@@ -94,11 +94,15 @@ class Theme(ThemeBase):
             self.searchform(d),
             self.logo(),
             self.username(d),
-            u'<h1 id="locationline">',
+
+            # Commented out from modernized
+            #u'<h1 id="locationline">',
             self.interwiki(d),
-            self.title(d),
-            u'</h1>',
+            #self.title(d),
+            #u'</h1>',
             self.trail(d),
+
+
             self.navibar(d),
             #u'<hr id="pageline">',
             u'<div id="pageline"><hr style="display:none;"></div>',
@@ -111,6 +115,7 @@ class Theme(ThemeBase):
 
             # Start of page
             self.startPage(),
+            self.title(d),
         ]
         return u'\n'.join(html)
 
