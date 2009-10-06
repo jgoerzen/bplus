@@ -47,7 +47,7 @@ a.interwiki img, a.badinterwiki img {
 
 /* user interface styles */
 
-#header, #sidebar, #footer, #timings, #credits, #interwiki, #pagelocation {
+#header, #sidebar, #footer, #timings, #credits, #interwiki {
 	display: none;
 }
 

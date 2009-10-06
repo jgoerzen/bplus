@@ -154,9 +154,13 @@ textarea {
     clear: left;
 }
 
+#content {
+    margin-top: 1.0em;
+}
+
 #pagelocation {
-    font-size: 1.5em;
-    letter-spacing: 0.05em;
+    font-size: 1.3em;
+    /* letter-spacing: 0.05em; */
 }
 
 
