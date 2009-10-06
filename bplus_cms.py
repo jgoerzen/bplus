@@ -1,6 +1,6 @@
 # -*- coding: iso-8859-1 -*-
 """
-    MoinMoin - modernized_cms theme
+    MoinMoin - bplus_cms theme
 
     @copyright: 2009 MoinMoin:ThomasWaldmann
     @license: GNU GPL, see COPYING for details.
@@ -10,7 +10,7 @@ from MoinMoin.theme.modernized import Theme as ThemeBase
 
 class Theme(ThemeBase):
 
-    name = "modernized" # we tell that we are 'modernized', so we use its static data
+    name = "bplus" # we tell that we are 'bplus', so we use its static data
 
     def onlyloggedin(method):
         """ decorator that returns empty string for not logged-in users,
