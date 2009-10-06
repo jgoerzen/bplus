@@ -94,12 +94,13 @@ class Theme(ThemeBase):
             self.searchform(d),
             self.logo(),
             self.username(d),
-            self.title(d),
 
+            u'<br/>',
             # Commented out from modernized
-            #u'<h1 id="locationline">',
+            u'<h1 id="locationline">',
+            self.title(d),
             self.interwiki(d),
-            #u'</h1>',
+            u'</h1>',
             self.trail(d),
 
 

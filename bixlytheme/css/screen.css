@@ -60,11 +60,11 @@ textarea {
 #logo {
     float: left;
 		margin-top: 0px;
-		margin-bottom: 20px;
+		margin-bottom: 5px;
 		margin-left: 20px;
     padding: 0;
     /* For text only logo */
-    font-size: 1.4em;
+    font-size: 1.6em;
     line-height: 1em;
     font-weight: bold;
 }
@@ -86,7 +86,7 @@ textarea {
 #username {
     display: block;
     /* margin: 9px 20px 21px 432px; */
-    margin: 9px 20px 1px 432px;
+    margin: 2px 20px 1px 432px;
     padding: 0;
     font-size: 0.82em;
 }
@@ -144,12 +144,14 @@ textarea {
 }
 
 #locationline {
-    padding: 10px;
-		padding-top: 40px;
-    font-size: 100%;
+    padding: 0px;
+	/*	padding-top: 40px;*/
+    padding-bottom: 5px;
+    font-size: 1.0em;
     font-weight: normal;
-    margin: 0.25em 12px 5px 12px;
-    clear: right;
+    /* margin top right bottom left */  
+    margin: 0.0em 12px 3px 20px;
+    clear: both;
 }
 *[dir="rtl"] #locationline {
     clear: left;
@@ -160,12 +162,10 @@ textarea {
 }
 
 #pagelocation {
-    font-size: 0.9em;
-    margin-left: 20px;
-    margin-bottom: 1px;
-    float: none;
-    position: absolute;
-    left: 0px;
+    font-size: 1.4em;
+    /* margin-left: 20px;*/
+    margin-top: 0;
+    /* margin-bottom: 1px;*/
     /* letter-spacing: 0.05em; */
 }
 
