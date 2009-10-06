@@ -205,7 +205,7 @@ class Theme(ThemeBase):
         else:
             content.append(wikiutil.escape(d['title_text']))
 
-        location_html = u'<span class="sep">/</span>'.join(content)
+        location_html = u'<span class="sep"> / </span>'.join(content)
         html = u'<span id="pagelocation">%s</span>' % location_html
         return html
 
