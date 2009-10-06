@@ -94,11 +94,11 @@ class Theme(ThemeBase):
             self.searchform(d),
             self.logo(),
             self.username(d),
+            self.title(d),
 
             # Commented out from modernized
             #u'<h1 id="locationline">',
             self.interwiki(d),
-            #self.title(d),
             #u'</h1>',
             self.trail(d),
 
@@ -115,7 +115,7 @@ class Theme(ThemeBase):
 
             # Start of page
             self.startPage(),
-            self.title(d),
+            #self.title(d),
         ]
         return u'\n'.join(html)
 
@@ -206,7 +206,7 @@ class Theme(ThemeBase):
             content.append(wikiutil.escape(d['title_text']))
 
         location_html = u'<span class="sep"> / </span>'.join(content)
-        html = u'<span id="pagelocation">%s</span>' % location_html
+        html = u'<div id="pagelocation">%s</div>' % location_html
         return html
 
     def username(self, d):
