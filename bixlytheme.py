@@ -190,7 +190,7 @@ class Theme(ThemeBase):
             for s in segments[:-1]:
                 curpage += s
                 thisp = Page(self.request, curpage)
-                content.append(thisp.link_to(self.request, thisp.split_title()))
+                content.append(thisp.link_to(self.request, thisp.split_title().split('/')[-1]))
                 curpage += '/'
             link_text = d['page'].split_title().split('/')[-1]
             link_title = _('Click to do a full-text search for this title')
