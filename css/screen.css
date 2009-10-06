@@ -52,14 +52,16 @@ textarea {
 
 #header {
     margin: 1px;
+		margin-top: 15px;
     padding: 1px;
-    background: #e6eaf0;
     line-height: 1.1em;
 }
 
 #logo {
     float: left;
-    margin: 5px 10px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+		margin-left: 20px;
     padding: 0;
     /* For text only logo */
     font-size: 1.4em;
@@ -83,7 +85,7 @@ textarea {
 
 #username {
     display: block;
-    margin: 8px 12px 4px 12px;
+    margin: 9px 20px 21px 432px;
     padding: 0;
     font-size: 0.82em;
 }
@@ -127,7 +129,7 @@ textarea {
 #pagetrail {
     clear: right;
     display: inline;
-    margin: 0 0.88em 0.25em 0.88em;
+    margin: 10px 10px 10px 10px;
     padding: 0;
     font-size: 0.88em;
 }
@@ -141,7 +143,8 @@ textarea {
 }
 
 #locationline {
-    padding: 0;
+    padding: 10px;
+		padding-top: 40px;
     font-size: 100%;
     font-weight: normal;
     margin: 0.25em 12px 5px 12px;
@@ -210,7 +213,7 @@ textarea {
 }
 
 #navibar li.current, #navibar li.current:hover {
-    background: #81BBF2; /* url(../img/tab-selected.png) repeat-x; */
+    background: #CFCFCF; /* url(../img/tab-selected.png) repeat-x; */
     border: 1px solid #4d7da9;
     border-bottom: 1px solid #81bbf2;
     margin-bottom: -1px;
@@ -224,9 +227,7 @@ textarea {
     /* sync these values, line-height is needed for IE */
         height: 4px;
         line-height: 4px;
-    border-bottom: 1px solid #4d7da9;
-    border-top: 1px solid #4d7da9;
-    background: #81BBF2;
+    background: #DFDFDF;
 }
 
 .editbar {
@@ -234,10 +235,8 @@ textarea {
     display: block;
     margin: 0;
     padding: 2px 8px;
-    background: #d6e4f9;
+    background: #EFEFEF;
     font-size: 0.8em;
-    border-bottom: 1px solid #4d7da9;
-    border-top: 1px solid #4d7da9;
     margin-top: -1px;
 }
 

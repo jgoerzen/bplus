@@ -12,7 +12,7 @@ from MoinMoin.Page import Page
 
 class Theme(ThemeBase):
 
-    name = "modernized"
+    name = "bixlytheme"
 
     _ = lambda x: x     # We don't have gettext at this moment, so we fake it
     icons = {
@@ -30,9 +30,9 @@ class Theme(ThemeBase):
         'new':        (_("[NEW]"),               "moin-new.png",      16, 16),
         'diffrc':     (_("[DIFF]"),              "moin-diff.png",     16, 16),
         # General
+        'www':        ("[WWW]",                  "moin-www.png",      16, 16),
         'bottom':     (_("[BOTTOM]"),            "moin-bottom.png",   16, 16),
         'top':        (_("[TOP]"),               "moin-top.png",      16, 16),
-        'www':        ("[WWW]",                  "moin-www.png",      16, 16),
         'mailto':     ("[MAILTO]",               "moin-email.png",    16, 16),
         'news':       ("[NEWS]",                 "moin-news.png",     16, 16),
         'telnet':     ("[TELNET]",               "moin-telnet.png",   16, 16),
@@ -94,11 +94,10 @@ class Theme(ThemeBase):
             self.searchform(d),
             self.logo(),
             self.username(d),
-            u'<h1 id="locationline">',
-            self.interwiki(d),
-            self.title(d),
-            u'</h1>',
-            self.trail(d),
+            #u'<h1 id="locationline">',
+            #self.interwiki(d),
+            #self.title(d),
+            #u'</h1>',
             self.navibar(d),
             #u'<hr id="pageline">',
             u'<div id="pageline"><hr style="display:none;"></div>',

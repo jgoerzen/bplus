@@ -8,12 +8,50 @@ Copyright (c) 2001, 2002, 2003 by Juergen Hermann
 html {
 	background-color: white;
 	color: black;
-	font-family: sans-serif;
-	font-size: 1em;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size: 14px;
 }
 
 body {
 	margin: 0;
+	width: 900px;
+	margin-righ: 10%;
+	margin-left: 10%;
+}
+h1, h2, h3, h4, h5{
+	color: #000;
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-top: 28px;
+		}
+
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 16px;
+	color: #1A8F56;
+}
+
+h3 {
+font-size: 14px;
+color: Black;
+margin-top: 10px;
+font-weight: bold;
+}
+
+h4 {
+font-size: 14px;
+color: #1A8F56;
+margin-top: 10px;
+font-weight: 100;
+}
+
+p {
+	margin-top: 2px;
+	padding-top: 0px;
+	padding-bottom 10px;
 }
 
 /* Links */
