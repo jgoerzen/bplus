@@ -8,11 +8,13 @@ Copyright (c) 2001, 2002, 2003 by Juergen Hermann
 html {
 	font-family: Times, serif;
 	font-size: 12pt;
+        margin-right: 1in;
 }
 
 body {
     /* Give about 3.4cm in Mozilla/Firefox and about 2.2cm in Safari */
-	margin: 1.5cm;
+	margin: 1in;
+        width: 100%;
 }
 
 a, a:visited, a.nonexistent, a.badinterwiki {
