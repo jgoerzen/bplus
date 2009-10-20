@@ -29,5 +29,5 @@ table.navigation {
     padding: 2px;
 }
 
-#interwiki, #pageinfo { display: none; }
+#interwiki, #pageinfo, #pagelocation { display: none; }
 
