@@ -267,6 +267,8 @@ textarea {
     margin: 4px 6px;
 }
 
+.editbar a:link:hover, .editbar a:link:active, .editbar a:visited:hover { text-decoration: underline; color: green; }
+
 .editbar a, .editbar a:visited { color: #0044B3; }
 
 #message {
