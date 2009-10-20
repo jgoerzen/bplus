@@ -19,7 +19,7 @@ body {
 	margin-left: 0%; */
 }
 h1, h2, h3, h4, h5{
-	color: #000;
+	color: #1A8F56;
 	font-weight: bold;
 	margin-bottom: 5px;
 	margin-top: 28px;
@@ -28,30 +28,6 @@ h1, h2, h3, h4, h5{
 #page {
         font-size: 15px;
         font-family: "Bitstream Vera Serif","Times New Roman","Georgia", serif;
-}
-
-h1 {
-	font-size: 24px;
-        color: #1A8F56;
-}
-
-h2 {
-	font-size: 16px;
-	color: #1A8F56;
-}
-
-h3 {
-font-size: 14px;
-color: Black;
-margin-top: 10px;
-font-weight: bold;
-}
-
-h4 {
-font-size: 14px;
-color: #1A8F56;
-margin-top: 10px;
-font-weight: 100;
 }
 
 p {
